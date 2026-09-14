@@ -1,0 +1,123 @@
+KL4 DEBLOAT LIST
+================
+Package names for Tecno Spark Go 1 (KL4) - V4445
+
+Source: Reddit r/TECNOphone, GitHub Gists, Hovatek Blog, XDA Forums
+Tested on: KL4 V4445 / HiOS / Android 14 Go / UMS9230E
+
+Usage:
+  Remove:  adb shell pm uninstall --user 0 <package>
+  Restore: adb shell cmd package install-existing <package>
+
+====================================================
+CONFIRMED SAFE TO REMOVE (Tecno/Transsion)
+====================================================
+
+# Phone Manager / Bloat
+com.transsion.phonemanager          # Phone Manager
+com.transsion.phonemaster           # Phone Master
+com.transsion.batterylab            # Battery Lab (fake stats)
+com.transsion.resolver              # App resolver
+
+# Tracking / Telemetry
+com.transsion.carlcare              # Carlcare (trackers)
+com.transsion.tecnospot             # Tecno Spot (ads)
+com.transsion.hamal                 # User experience logging
+com.transsion.statisticalsales      # Telemetry
+com.transsion.trancare              # Telemetry
+
+# Unused Apps
+com.transsion.childmode             # Child Mode (Google tracking)
+com.transsion.childmode.resoverlay  # Child Mode resource overlay
+com.transsion.notebook              # Notebook (use Google Keep instead)
+com.transsion.compass               # Compass (questionable permissions)
+com.transsion.magicshow             # Bad video player
+com.transsion.fmradio               # FM Radio
+com.transsion.letswitch             # Let Switch
+com.transsion.aivoiceassistant      # AI Voice Assistant (Ella)
+com.transsion.smartpanel            # Smart Panel
+com.transsion.theme.icon            # Theme Icon pack
+com.transsion.plat.appupdate        # Palm Store auto-updates
+com.transsion.scanningrecharger     # QR code scanner
+com.transsion.audioshare            # Audio Share
+com.transsion.datatransfer          # Data Transfer
+com.transsion.manualguide           # User manual
+com.transsion.agingfunction         # Factory test
+com.transsion.tranengine            # Translation engine
+com.transsion.nephilim              # Unknown (safe to remove)
+com.transsion.ella                  # Ella voice assistant
+com.transsion.tabe                  # Cloud sync
+com.transsion.succ                  # Unknown (safe to remove)
+com.transsion.teop                  # Unknown (safe to remove)
+com.transsion.repaircard            # Repair card
+com.transsion.ossettingsext         # Settings extension
+com.transsion.screenrecorder        # Screen recorder (use built-in)
+com.transsion.aisettings            # AI Settings
+com.transsion.uxdetector            # UX detector
+com.transsion.deskclock             # Desk clock (use Google Clock)
+com.transsion.autotest.factory      # Factory autotest
+com.transsion.overlaysuw            # System UI overlay
+com.transsion.microintelligence     # Micro intelligence
+com.transsion.dynamicbar            # Dynamic bar
+com.transsion.dynamicbar.overlay    # Dynamic bar overlay
+com.transsion.overlaysuw.resoverlay # Resource overlay
+com.transsion.faceid                # Face ID (may break face unlock!)
+com.transsion.guideservice          # Guide service
+com.transsion.tranfacmode           # Transform mode
+com.transsion.thub.res              # Unknown resource
+com.transsion.dtsaudio              # DTS audio (may reduce audio quality)
+com.transsion.systemupdate          # System update (use manual update)
+
+# Weather
+com.rlk.weathers                   # Weather app (full of ads)
+
+# Other
+com.funbase.xradio                 # XRadio (background ads)
+com.zaz.translate                  # ZAZ Translate
+com.talpa.hibrowser                # Hi Browser (bloat browser)
+tech.palm.id                       # Palm ID
+
+====================================================
+FACEBOOK (Safe to remove)
+====================================================
+
+com.facebook.appmanager            # Facebook Manager
+com.facebook.services              # Facebook Services
+com.facebook.system                # Facebook System
+com.facebook.katana                # Facebook app itself
+
+====================================================
+GOOGLE (Optional - comment out what you keep)
+====================================================
+
+com.google.android.apps.youtube.music  # YouTube Music
+com.google.android.apps.wellbeing      # Digital Wellbeing
+com.google.android.apps.nbu.files      # Google Files
+com.google.android.apps.restore       # Google Restore
+com.google.android.apps.safetyhub     # Safety Hub
+com.google.android.apps.assistant     # Google Assistant
+com.google.android.tts                # Google TTS
+com.google.android.marvin.talkback    # TalkBack accessibility
+com.google.android.videos             # Google TV
+com.google.android.googlequicksearchbox # Google Search
+com.google.android.gm                 # Gmail
+com.google.android.apps.tachyon       # Google Duo/Meet
+
+====================================================
+DO NOT REMOVE (will break your phone!)
+====================================================
+
+com.transsion.hilauncher            # YOUR LAUNCHER!
+com.transsion.camera                # Camera app
+com.android.dialer                  # Phone dialer
+com.android.contacts                # Contacts
+com.android.mms                     # Messages
+com.android.settings                # Settings
+com.android.systemui                # System UI
+com.google.android.gms              # Google Play Services
+com.google.android.apps.messaging   # Google Messages
+
+====================================================
+MADE BY DOVI & OPENCODE | SEPTEMBER 2026
+Share freely!
+====================================================
